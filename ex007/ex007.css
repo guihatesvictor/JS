@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(82, 82, 82);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+
+.x {
+    font-size: 80px;
+    margin-top: 130px;
+    color: rgb(27, 27, 255);
+}
+
+section {
+    background-color: rgb(175, 175, 175);
+    width: 900px;
+    height: 400px;
+    box-shadow: 7px 7px 20px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+h2 {
+    color: red;
+    font-size: 5vw;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}

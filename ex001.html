@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 001</title>
+</head>
+
+<body style="background-color: rgb(194, 194, 194);">
+    <h1>Exercício 001</h1>
+    <button onclick="Botao1()" style="padding: 7px; border-radius: 7px;">Botão 1</button>
+    <button onclick="Botao2()" style="padding: 7px; border-radius: 7px;">Botão 2</button>
+    <button onclick="Botao3()" style="padding: 7px; border-radius: 7px;">Botão 3</button>
+    <h1>Exercício 001 - Mudando as cores de fundo</h1>
+    <button onclick="BotaoCorFundo()" style="padding: 7px; background-color: white; border-radius: 7px;">Fundo branco</button>
+    <button onclick="BotaoCorFundo2()" style="padding: 7px; background-color: green; border-radius: 7px;">Fundo verde</button>
+    <button onclick="BotaoCorFundo3()" style="padding: 7px; background-color: red; border-radius: 7px;">Fundo vermelho</button>
+    <button onclick="BotaoCorFundo4()" style="padding: 7px; background-color: blue; border-radius: 7px;">Fundo azul</button>
+</body>
+
+<script>
+
+    function Botao1() {
+        alert("Você cliclou no botão 1")
+    }
+
+    function Botao2() {
+        alert("Você cliclou no botão 2")
+    }
+
+    function Botao3() {
+        alert("Você cliclou no botão 3")
+    }
+
+    function BotaoCorFundo(){
+        document.body.style.backgroundColor = "white"
+    }
+
+    function BotaoCorFundo2(){
+        document.body.style.backgroundColor = "green"
+    }
+
+    function BotaoCorFundo3(){
+        document.body.style.backgroundColor = "red"
+    }
+
+    function BotaoCorFundo4(){
+        document.body.style.backgroundColor = "blue"
+    }
+
+</script>
+
+</html>

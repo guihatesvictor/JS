@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 004</title>
+</head>
+
+<body style="background-color: rgb(194, 194, 194);">
+    <h1>Registro de visitas</h1>
+    <button onclick="Nome()" style="padding: 10px; border-radius: 7px;">Cadastrar nova Pessoa</button>
+    <p id="pessoa">Pessoas que passaram por aqui...</p>
+</body>
+
+<script>
+
+    function Nome() {
+        var nome = prompt(`Nome da nova Pessoa: `)
+
+        nome = string(nome)
+
+        var adicionado = nome
+
+        document.getElementById(`pessoa`)
+        innerHTML += `<br>&#x1f596; Acabei de cadastrar
+            <strong>${nome}</strong> no sitema.`
+    }
+
+
+</script>
+
+</html>

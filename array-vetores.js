@@ -22,3 +22,21 @@ frutas.push(`Abacaxi`)
 
 //Modificando o valor de um índice do vetor
 frutas[0] = `Melão`
+
+
+//Simplificando o vetor comum
+for (var pos in frutas) {
+    console.log(frutas[pos])
+}
+
+
+//forEach - significa para cada item do vetor
+//dentro do parenteses vai a variável que irá receber o conteúdo de cada linha do vetor
+//e com o => {} informamos o bloco que irá executar para cada linha
+frutas.forEach(item => {
+    console.log(`item pelo forEach`, item)
+})
+
+frutas.forEach((item, indice) => {
+    console.log(`item pelo forEach`, indice, item)
+})

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="ex025.css">
+    <script defer src="ex025.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+
+    <div>
+        <h3>Nome <input type="text" id="name"></h3>
+        <h3>Usuário <input type="text" id="user"></h3>
+        <h3>Senha <input type="password" id="password"></h3>
+        <h3>Confirmar Senha <input type="password" id="confirmpassword"></h3>
+        <button onclick="botaoCadastro()">Cadastrar Usuário</button>
+        <button onclick="botaoLimparCadastros()">Limpar Cadastros</button>
+
+        <h2>Lista de Usuários Cadastrados</h2>
+        <h3 id="resultados"></h3>
+    </div>
+
+    <footer>
+        <h3>Sesi / Senai - Desenvolvimento de Sistemas</h3>
+    </footer>
+</body>
+
+</html>

@@ -24,7 +24,8 @@ div {
 
 button {
     padding: 12px;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 button:hover {
